@@ -1,0 +1,7 @@
+#!/usr/bin/xdotool
+search --classname "DontMove"
+windowraise
+windowfocus
+keyup Left
+keydown Right
+

@@ -1,0 +1,12 @@
+let ALT=1;
+
+while test $ALT -ne 0
+do
+	# sleep 0.8 to get left right trophy
+	./MoveLeft
+	sleep 0.$(($RANDOM%10))
+	#sleep 0.8 
+	./MoveRight
+	sleep 0.$(($RANDOM%10))
+	#sleep 0.8 
+done

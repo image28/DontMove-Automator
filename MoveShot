@@ -1,0 +1,7 @@
+let SHOTCOUNT=3130;
+while test $SHOTCOUNT -ne 0
+do
+	import -window 0x0140000b DontMove-$SHOTCOUNT.jpg
+	let SHOTCOUNT=$SHOTCOUNT+1;
+	sleep 2;
+done
